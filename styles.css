@@ -51,6 +51,7 @@ section {
 }
 
 
+
 ul {
     list-style: none;
 }
@@ -100,3 +101,22 @@ li {
 a {
     text-decoration: none;
 }
+@media (min-width: 320px) {
+
+    .color-code {
+   
+        
+        top: 1rem;
+        right: 4rem;
+    }
+    .f {
+        
+        display: flex;
+
+        min-width: 20rem;
+    }
+}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+@media (min-width: 1220px) {}
+@media (min-width: 1440px) {}
