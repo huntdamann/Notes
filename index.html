@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Iceberg&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Hunter Mann Notes</title>
+</head>
+<body>
+
+    <section>
+
+
+        <ul class="tree">
+
+            <li  onclick="toggle_root()">
+                <div id="root-handle">
+                    <i class="fa-regular fa-folder-open"></i><p>web</p>
+                </div>
+                
+                <ul id="folder-handle" onclick="" class="hidden">
+                    <li class="f"><span></span><i class="fa-regular fa-folder-open"></i>parallax-effects
+                   
+                    </li>
+                   
+        
+                </ul>
+                <ul id="files" class="hidden"> 
+                    <li style="color: #0ebe23;"><span></span><i class="fa-solid fa-palette" style="color: #B197FC;"></i></i> <a style="color: #0ebe23; href="https://huntdamann.github.io/parallax-effect-basic/">Parallax Basic</a></li>
+                    <li style="color: red;"><span></span><i class="fa-solid fa-palette" style="color: #B197FC;"></i></i>Parallax Night</li>
+                    <li style="color: red;"><span></span><i class="fa-solid fa-palette" style="color: #B197FC;"></i></i>Parallax Kobe</li>
+                </ul>
+                
+                <ul id="folder-handle-2" onclick="toggle_folder()" class="hidden">
+                    <li><span></span><i class="fa-regular fa-folder-open"></i>boiler_plate
+                   
+                        
+                   
+                    </li>
+        
+                </ul>
+                <ul id="files-2" class="hidden"> 
+                    <li style="color: #0ebe23;"><span></span><i class="fa-brands fa-html5" style="color: #bda114;"></i><a style="color: #0ebe23;" href="https://huntdamann.github.io/file-tree-structure/">file-tree-display</a></li>
+                    <li style="color: #0ebe23;"><span></span><i class="fa-brands fa-html5" style="color: #bda114;"></i><a style="color: #0ebe23;" href="https://huntdamann.github.io/toggle-file-display/">toggle-file-display</a></li>
+                   
+                </ul>
+                
+                
+            
+            </li>
+    
+            <li>
+                <div id="c-handle">
+                    <i class="fa-regular fa-folder-open"></i><p>security
+                </div>
+                
+                <ul id="folder-handle-3" onclick="toggle_folder()" class="hidden">
+                    <li><span></span><i class="fa-regular fa-folder-open"></i>blog</li>
+    
+        
+                </ul>
+                <ul id="files-3" class="hidden"> 
+                    <li style="color: #0ebe23;"><span></span><i class="fa-solid fa-file" style="color: #63E6BE;"></i><a style="color: #0ebe23; href="https://huntdamann.github.io/">Security Demystified Blog</a></li>
+                </ul>
+                <ul id="folder-handle-4" onclick="toggle_folder()" class="hidden">
+                    <li><span></span><i class="fa-regular fa-folder-open"></i>OSINT</li>
+        
+                </ul>
+                <ul id="files-4" class="hidden"> 
+                    <li style="color: #0ebe23;"><span></span><i class="fa-solid fa-file" style="color: #63E6BE;"></i><a style="color: #0ebe23; href="https://github.com/huntdamann/OSINT/tree/main/example_1">OSINT Practice 001</a></li>
+                </ul>
+            
+            </li>
+            
+    
+        </ul>
+
+        <div class="color-code">
+            <div>
+                <i class="fa-solid fa-circle" style="color: #0ebe23;"></i><span>Completed</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle" style="color: red;"></i><span>Building</span>
+            </div>
+        </div>
+    
+    
+
+    </section>
+   
+   
+</body>
+<script src="./main.js"></script>
+</html>
