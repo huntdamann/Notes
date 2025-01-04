@@ -27,11 +27,14 @@ section {
     position: relative;
 }
 
+
 #files,
 #files-2,
 #files-3,
 #files-4,
-#files-5 {
+#files-5,
+#files-6,
+#files-7 {
     margin-left: 2rem;
     height: 8rem;
 }

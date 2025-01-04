@@ -5,22 +5,30 @@ const boiler = document.querySelector('#folder-handle-2'); //parallax
 const blog = document.querySelector('#folder-handle-3'); //blog
 const osint = document.querySelector('#folder-handle-4'); //osint
 const react = document.querySelector('#folder-handle-5'); //osint
+const jekyll = document.querySelector('#folder-handle-6'); //osint
+const scripts = document.querySelector('#folder-handle-7'); //osint
 const parallaxFiles = document.querySelector('#files'); //Files for parallax folder
 const boilerFiles = document.querySelector('#files-2'); // files for boiler plate folder 
 const blogFiles = document.querySelector('#files-3'); // files for boiler plate folder 
 const osintFiles = document.querySelector('#files-4'); // files for boiler plate folder 
 const reactFiles = document.querySelector('#files-5'); // files for boiler plate folder
+const jekyllFiles = document.querySelector('#files-6'); // files for boiler plate folder
+
+const scriptFiles = document.querySelector('#files-7'); // files for boiler plate folder
+
 
 rootButton.addEventListener('click', (e) => {
 
     parallax.classList.toggle('hidden');
     boiler.classList.toggle('hidden');
     react.classList.toggle('hidden');
+    jekyll.classList.toggle('hidden')
 })
 cButton.addEventListener('click', (e) => {
 
     blog.classList.toggle('hidden');
     osint.classList.toggle('hidden');
+    scripts.classList.toggle('hidden');
 })
 parallax.addEventListener('click', (e) => {
 
@@ -45,6 +53,15 @@ osint.addEventListener('click', (e) => {
 react.addEventListener('click', (e) =>  {
 
     reactFiles.classList.toggle('hidden');
+})
+scripts.addEventListener('click', (e) => {
+
+    scriptFiles.classList.toggle('hidden');
+
+})
+jekyll.addEventListener('click', (e) =>  {
+
+    jekyllFiles.classList.toggle('hidden');
 })
 
 
